@@ -6,18 +6,17 @@
     box-sizing: border-box;
 }
 
-body,html{
-    max-width: 1500px;
+body{
+    width: 100vw;
     height: 100%;
 }
-.container .menu{
+ .container .menu{
     width: 100%;
     height: 44px;
     display: flex;
     margin-top: 20px;
      justify-content: space-between;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin: 0 90px;
 }
 .menu .title{
     font-family: calibri;
@@ -49,7 +48,10 @@ padding: 0 15PX;
 }
 .image-1{
     background: url(../Rectangle\ 22.png);
-    width: 1440px;
+    /* position: fixed; */
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
     height: 586px;
    margin-top: 100px;
 }
@@ -208,7 +210,7 @@ margin-top: 110px;
 .image5 img{
     margin-left: 30px;
     height: 698px;
-    width: 450px;
+    width: 100%;
 }
  .image5{
     margin-top: 40px;
@@ -220,7 +222,7 @@ margin-top: 110px;
 }
 .input input{
     margin-top: 30px;
-    width: 650px;
+    width: 100%;
     outline: none;
     font-size: 35px;
     height: 120px;
@@ -233,7 +235,7 @@ border-color: #FF03B8;
 .input .message textarea{
     font-size: 35px;
     height: 300px;
-    width: 650px;
+    width: 100%;
     outline: none;
     padding-top: 30px;
     margin-top: 30px;
@@ -257,7 +259,7 @@ cursor: pointer;
 footer{
     background: #FF03B8;
     margin-top: 100px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     gap: 100px;
     justify-content: center;
