@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 100vw;
+   width: 100vw;
     height: 100%;
 }
  .container .menu{
@@ -16,7 +16,7 @@ body{
     display: flex;
     margin-top: 20px;
      justify-content: space-between;
-    margin: 0 90px;
+    padding: 0 90px;
 }
 .menu .title{
     font-family: calibri;
@@ -48,11 +48,9 @@ padding: 0 15PX;
 }
 .image-1{
     background: url(../Rectangle\ 22.png);
-    /* position: fixed; */
-    /* position: absolute; */
-    position: relative;
     width: 100%;
     height: 586px;
+    position: relative;
    margin-top: 100px;
 }
 .img-1-page{
@@ -95,7 +93,7 @@ gap: 60px;
 margin-top: 70px;
 }
  .image-2 .img-2-page img{
-    width: 728px;
+    width: 100%;
     height: 495px;
 }
 .img-2-page p{
@@ -155,7 +153,7 @@ font-size: 55px;
 }
 .people{
     background: #D9D9D9;
-width: 1282px;
+width: 100%;
 height: 418px;
 border-radius: 20px;
 margin-left: 40px;
