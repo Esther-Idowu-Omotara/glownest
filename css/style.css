@@ -15,8 +15,9 @@ body{
     height: 44px;
     display: flex;
     margin-top: 20px;
-     justify-content: space-between;
-    padding: 0 90px;
+     justify-content: 
+     space-between;
+     padding: 0 90px;
 }
 .menu .title{
     font-family: calibri;
@@ -257,7 +258,7 @@ cursor: pointer;
 footer{
     background: #FF03B8;
     margin-top: 100px;
-    width: 100%;
+  width: 100%;
     display: flex;
     gap: 100px;
     justify-content: center;
